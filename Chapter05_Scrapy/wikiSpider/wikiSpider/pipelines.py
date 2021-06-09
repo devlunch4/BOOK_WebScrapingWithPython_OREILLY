@@ -1,20 +1,7 @@
-# Define your item pipelines here
-#
-# Don't forget to add your pipeline to the ITEM_PIPELINES setting
-# See: https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-
-
-# useful for handling different item types with a single interface
-from itemadapter import ItemAdapter
-
-#
-# class WikispiderPipeline:
-#     def process_item(self, item, spider):
-#         return item
-
 from datetime import datetime
-from wikiSpider.items import Article
+from ch05.wikiSpider.wikiSpider.items import Article
 from string import whitespace
+
 
 class WikispiderPipeline(object):
     def process_item(self, article, spider):
