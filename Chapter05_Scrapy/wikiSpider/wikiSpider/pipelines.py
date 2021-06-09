@@ -1,5 +1,5 @@
 from datetime import datetime
-from ch05.wikiSpider.wikiSpider.items import Article
+# from Chapter05_Scrapy.wikiSpider.wikiSpider.items import Article
 from string import whitespace
 
 
