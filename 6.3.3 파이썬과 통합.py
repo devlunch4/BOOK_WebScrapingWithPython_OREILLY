@@ -7,3 +7,4 @@ print(cur.fetchone())
 cur.close()
 conn.close()
 
+## 6.3.4~5 책으로 확인.
